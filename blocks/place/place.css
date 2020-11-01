@@ -3,7 +3,7 @@
     grid-template-rows: repeat(2, auto);
     grid-template-columns: repeat(2, auto);
     gap: 48px 40px;
-    padding-bottom: 92px;
+    padding-bottom: 80px;
 }
 
 .place:last-child {
@@ -12,4 +12,27 @@
 
 .place:hover {
     cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+    .place {
+        gap: 48px 32px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place {
+        gap: 48px 28px;
+        padding-bottom: 73px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place {
+        display: grid;
+        grid-template-rows: repeat(3, auto);
+        grid-template-columns: 100%;
+        gap: 32px;
+        padding-bottom: 66px;
+    }
 }

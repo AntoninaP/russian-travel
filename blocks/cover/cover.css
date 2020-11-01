@@ -1,6 +1,6 @@
 .cover {
     width: calc(100% - 2*48px);
-    height: 740px;
+    height: 62.5vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -8,9 +8,8 @@
     background-image: url("../../images/cover-trains.jpg");
     background-size: cover;
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
     position: relative;
+    transition: opacity 1s ease;
 }
 
 .cover:before {
@@ -23,7 +22,6 @@
     right: 0;
     background-color: #2A2C2F;
     opacity: 0.3;
-    transition: opacity 1s ease;
 }
 
 .cover:hover:before {
@@ -31,3 +29,20 @@
     cursor: pointer;
 }
 
+@media screen and (max-width: 1024px) {
+    .cover {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover {
+        width: 100%;
+    }
+}

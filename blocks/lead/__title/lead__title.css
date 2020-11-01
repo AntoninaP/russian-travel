@@ -9,3 +9,24 @@
     font-weight: 900;
     font-style: normal;
 }
+
+@media screen and (max-width: 1024px) {
+    .lead__title {
+        margin: 48px 0 32px 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead__title {
+        margin: 48px 0 32px 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lead__title {
+        margin: 48px 0 16px 0;
+        max-width: 288px;
+        font-size: 40px;
+        line-height: calc(48/40);
+    }
+}

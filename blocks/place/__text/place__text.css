@@ -6,3 +6,15 @@
 .place__text:first-child {
     padding-bottom: 27px;
 }
+
+@media screen and (max-width: 768px) {
+    .place__text:first-child {
+        padding-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__text:first-child {
+        padding-bottom: 25px;
+    }
+}

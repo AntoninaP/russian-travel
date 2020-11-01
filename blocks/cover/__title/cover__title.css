@@ -9,4 +9,14 @@
     font-weight: 900;
     font-style: normal;
     z-index: 1;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 320px) {
+    .cover__title {
+        max-width: calc(100% - 2*16px);
+        font-size: 32px;
+        line-height: calc(35/32);
+    }
 }

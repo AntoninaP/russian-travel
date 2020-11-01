@@ -8,3 +8,12 @@
     padding: 0;
     margin: 0;
 }
+
+@media screen and (max-width: 320px) {
+    .footer__copyright {
+        font-size: 14px;
+        line-height: calc(14/14);
+        text-align: left;
+        margin-left: 16px;
+    }
+}
