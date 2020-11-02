@@ -2,9 +2,8 @@
     margin: 0;
     padding: 0;
     max-width: 460px;
-    font-family: 'Inter', Helvetica, Arial, sans-serif;
     font-size: 72px;
-    line-height: calc(76/72);
+    line-height: calc(76 / 72);
     text-align: left;
     font-weight: 900;
     font-style: normal;
@@ -20,15 +19,15 @@
     .place__title {
         max-width: 340px;
         font-size: 42px;
-        line-height: calc(46/42);
+        line-height: calc(46 / 42);
     }
 }
 
 @media screen and (max-width: 600px) {
     .place__title {
         max-width: 288px;
-        font-size: calc((100vw - 320px)/(768 - 320)*(42 - 32) + 32px);
-        line-height: calc((100vw - 320px)/(768 - 320)*(46 - 35) + 35px);
+        font-size: calc((100vw - 320px) / (768 - 320) * (42 - 32) + 32px);
+        line-height: calc((100vw - 320px) / (768 - 320) * (46 - 35) + 35px);
         padding-left: 16px;
     }
 }

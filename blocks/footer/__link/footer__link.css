@@ -2,20 +2,23 @@
     color: #FFFFFF;
     text-decoration: none;
     padding: 0;
-    font-family: 'Inter', Helvetica, Arial, sans-serif;
     font-size: 16px;
-    line-height: calc(18/16);
+    line-height: calc(18 / 16);
     text-align: center;
     font-weight: 400;
     font-style: normal;
 }
 
+.footer__link:hover {
+    opacity: 50%;
+    transition: opacity linear 2s;
+}
 
 
 @media screen and (max-width: 600px) {
     .footer__link {
         margin-bottom: 32px;
         font-size: 24px;
-        line-height: calc(24/24);
+        line-height: calc(24 / 24);
     }
 }
