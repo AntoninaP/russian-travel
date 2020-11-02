@@ -12,10 +12,12 @@
 @media screen and (max-width: 768px) {
     .intro__title {
         margin: 88px 0 0 0;
+        font-size: calc((100vw - 320px)/(768 - 320)*(54 - 32) + 32px);
+        line-height: calc((100vw - 320px)/(768 - 320)*(58 - 35) + 35px);
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
     .intro__title {
         margin: 64px 0 0 0;
         font-size: 32px;
